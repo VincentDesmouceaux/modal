@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div>
+    <div className="home">
       <p>
         "At vero eos et accusamus et iusto odio dignissimos ducimus qui
         blanditiis praesentium voluptatum deleniti atque corrupti quos dolores

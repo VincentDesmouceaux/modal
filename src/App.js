@@ -16,7 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
         </Routes>
         <Footer />
-        <Modal element={visible && <Modal setVisible={setVisible} />} />
+        {visible && <Modal setVisible={setVisible} />}
       </Router>
     </div>
   );
